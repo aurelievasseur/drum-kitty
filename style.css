@@ -1,0 +1,94 @@
+html {
+  font-size: 10px;
+  background: url('./background.jpg') bottom center;
+  background-size: cover;
+}
+.growl {
+  background: url(./img/growl.jpg);
+  background-size: 100%;
+}
+
+.grumpy {
+  background: url(./img/grumpy.jpg);
+  background-size: 100%;
+}
+.granpa {
+  background : url(./img/granpa.jpg);
+  background-size: 100%;
+}
+.nice {
+  background: url(./img/nice.jpg);
+  background-size: 100%;
+}
+
+.pigeon {
+  background: url(./img/pigeon.jpg);
+  background-size: 100%;
+}
+.purr {
+  background : url(./img/purr.jpg);
+  background-size: 100%;
+}
+.roar {
+  background: url(./img/roar.jpg);
+  background-size: 100%;
+}
+
+.sad {
+  background: url(./img/sad.jpg);
+  background-size: 100%;
+}
+.witch {
+  background : url(./img/witch.jpg);
+  background-size: 100%;
+}
+
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  height: 9rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 .5rem black;
+  display: flex;
+  flex-direction: column;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  font-size: 4rem;
+  place-self: end;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+  color: transparent;
+}
